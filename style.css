@@ -1,5 +1,40 @@
 body {
-  width: 100%;
+  max-width: 200cm;
   height: 100%;
-  margin: 0;
+  
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#featured-property{
+  margin: auto;
+  padding-right: 50%;
+  padding-left: 10%
+}
+
+nav > a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+figcaption {
+  height: 0.5cm;
+  width: 25cm;
+}
+
+#featured-property p {
+  width: 800px;
+  padding-left: 20%;
+}
+
+div {
+  float: left;
+  width: 25%;
+  background: red;
+  
+  
 }
